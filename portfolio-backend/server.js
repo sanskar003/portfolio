@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 
-const allowedOrigins = ["https://sanskarportfolio-psi.vercel.app"];
+const allowedOrigins = ["https://sanskar-portfolio-ten.vercel.app"];
 
 app.use(
   cors({
