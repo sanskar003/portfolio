@@ -16,7 +16,7 @@ app.use(
     origin: allowedOrigins,
     methods: ["GET", "POST", "OPTIONS"],
     credentials: true,
-  })
+  })  
 );
 
 app.use(express.json());
