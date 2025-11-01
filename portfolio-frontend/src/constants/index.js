@@ -85,6 +85,21 @@ export const servicesData = [
 export const projects = [
  
   {
+    id: 0,
+    name: "SYNTHRA",
+    description:
+      "Synthra is a conversational AI agent that helps users explore ideas and engage across multiple threads. It’s designed for thoughtful, personal dialogue in a calm, intelligent space.",
+    href: "https://synthra.vercel.app/",
+    image: "/images/project-Images/synthra.png",
+    bgImage: "/assets/backgrounds/curtains.jpg",
+    frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "Next.js" },
+      { id: 3, name: "Stripe API" },
+      { id: 4, name: "Tailwind CSS" },
+    ],
+  },
+  {
     id: 1,
     name: "KARAM CLOTHING",
     description:

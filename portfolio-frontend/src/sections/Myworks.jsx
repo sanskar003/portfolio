@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Myworks = () => {
   return (
-    <section id="projects" className="min-h-screen bg-black text-white pt-10">
+    <section id="projects" className="min-h-screen bg-black  text-white pt-10  ">
       <AnimatedHeaderSection
         subTitle={"the magic i created"}
         title={"PROJECT"}

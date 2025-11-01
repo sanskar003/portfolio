@@ -20,6 +20,7 @@ import {
   SiExpress,
   SiMongodb,
 } from "react-icons/si";
+import AnimatedAbout from "../component/AnimatedAbout";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -105,6 +106,8 @@ const About = () => {
 
   return (
     <section id="about" ref={sectionRef} className="min-h-screen">
+
+      
       
       <AnimatedHeaderSection
         subTitle=""
@@ -149,7 +152,7 @@ const About = () => {
 
       <div className="relative min-h-screen overflow-hidden px-4">
         {/* Background Logo Scroll */}
-        <div className="absolute inset-0 z-10 pointer-events-none sm:top-0 md:top-0 lg:top-60 ">
+        {/* <div className="absolute inset-0 z-10 pointer-events-none sm:top-0 md:top-0 lg:top-60 ">
           <LogoLoop
             logos={techLogos}
             speed={120}
@@ -161,7 +164,7 @@ const About = () => {
             fadeOut={true}
             ariaLabel="Technology partners"
           />
-        </div>
+        </div> */}
 
         {/* Optional Gradient Overlay */}
         {/* <div className="absolute inset-0 bg-gradient-to-b from-white/80 to-white/10 backdrop-blur-sm z-0" /> */}
@@ -169,7 +172,7 @@ const About = () => {
         {/* About Section Cards */}
         <div className="relative  flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 py-20">
           {/* Card 1 */}
-          <div className="hover:z-11 rotate-0 lg:rotate-12 hover:rotate-0 transition-all duration-500 w-full max-w-sm">
+          {/* <div className="hover:z-11 rotate-0 lg:rotate-12 hover:rotate-0 transition-all duration-500 w-full max-w-sm">
             <PixelTransition
               firstContent={
                 <img
@@ -199,10 +202,10 @@ const About = () => {
               animationStepDuration={0.4}
               className="custom-pixel-card"
             />
-          </div>
+          </div> */}
 
           {/* Card 2 */}
-          <div className="z-11 rotate-0 lg:rotate-3 hover:rotate-0 transition-all duration-500 w-full max-w-sm">
+          {/* <div className="z-11 rotate-0 lg:rotate-3 hover:rotate-0 transition-all duration-500 w-full max-w-sm">
             <PixelTransition
               firstContent={
                 <img
@@ -231,10 +234,10 @@ const About = () => {
               animationStepDuration={0.4}
               className="custom-pixel-card"
             />
-          </div>
+          </div> */}
 
           {/* Card 3 */}
-          <div className="hover:z-11 rotate-0 lg:-rotate-12 hover:rotate-0 transition-all duration-500 w-full max-w-sm">
+          {/* <div className="hover:z-11 rotate-0 lg:-rotate-12 hover:rotate-0 transition-all duration-500 w-full max-w-sm">
             <PixelTransition
               firstContent={
                 <img
@@ -264,8 +267,11 @@ const About = () => {
               animationStepDuration={0.4}
               className="custom-pixel-card"
             />
-          </div>
+          </div> */}
         </div>
+
+            <AnimatedAbout/>
+
       </div>
 
       <div className="min-h-[10vh]"></div>

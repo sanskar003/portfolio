@@ -36,7 +36,7 @@ const Hero = () => {
     <section id="home" className=" relative flex flex-col justify-start min-h-screen overflow-hidden">
       {/* 🧊 Responsive Cubes */}
       <div className="relative px-4 sm:px-10 py-10">
-        <div className="flex flex-col sm:flex-row gap-6 sm:gap-10 items-center justify-center">
+        <div className="flex flex-col sm:flex-row gap-6 pointer-events-none sm:pointer-events-auto sm:gap-10 items-center justify-center">
           <Cubes
             gridSize={isMobile ? 3 : 5}
             maxAngle={30}

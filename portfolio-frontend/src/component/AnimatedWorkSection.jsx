@@ -52,7 +52,7 @@ const AnimatedWorkSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-black min-h-[50vh] text-white  space-y-64 relative overflow-hidden"
+      className="bg-black min-h-[50vh] text-white space-y-64 relative overflow-hidden"
     >
       <div className="h-[0.5vh]"/>
 
@@ -72,10 +72,10 @@ const AnimatedWorkSection = () => {
                   className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 pointer-events-none"
                   // onClick={() => setActiveIndex(i)}
                 >
-                  <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-6xl font-amiamie-round mb-2 hollowText text-white pb-5">
+                  <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-6xl font-amiamie-round mb-2  text-white pb-5">
                     {project.name}
                   </h2>
-                  <p className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-light tracking-tight text-gold leading-5 sm:leading-5 md:leading-10 lg:leading-10">
+                  <p className="text-2xl sm:text-2xl md:text-4xl lg:text-4xl font-light tracking-tight text-gold leading-5 sm:leading-5 md:leading-10 lg:leading-10">
                     {project.description}
                   </p>
                 </div>
@@ -105,7 +105,7 @@ const AnimatedWorkSection = () => {
         );
       })}
 
-      <div className="min-h-[10vh] bg-black"></div>
+      <div className="min-h-[10vh] bg-black "></div>
     </section>
   );
 };

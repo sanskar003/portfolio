@@ -25,7 +25,7 @@ const ContactSummary = () => {
   return (
     <section
       ref={containerRef}
-      className="flex flex-col justify-center items-center min-h-screen "
+      className="flex flex-col justify-center items-center min-h-screen py-20 sm:py-20 md:py-10 lg:py-5"
     >
 
 
