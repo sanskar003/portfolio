@@ -114,8 +114,24 @@ export const projects = [
       { id: 4, name: "Tailwind CSS" },
     ],
   },
-   {
+   
+  {
     id: 2,
+    name: "The Line Project",
+    description:
+      "LINE is a visually expressive web project developed as a tribute to cutting-edge design and modern web architecture. It recreates the aesthetics and design of an iconic creative website",
+    href: "https://lineproject-tan.vercel.app/",
+    image: "/images/project-Images/lineProject.png",
+    bgImage: "/assets/backgrounds/map.jpg",
+    frameworks: [
+      { id: 1, name: "Blazor" },
+      { id: 2, name: "ASP.NET Core" },
+      { id: 3, name: "SQL Server" },
+      { id: 4, name: "Bootstrap" },
+    ],
+  },
+  {
+    id: 3,
     name: "WEBTHRRE DESIGN CLONE",
     description:
       "A pixel-perfect clone of WEBTHREE, rebuilt from scratch with minimul and clean architecture. Focused on precision, layout fidelity to mimic the original design.",
@@ -128,21 +144,6 @@ export const projects = [
       { id: 3, name: "Node.js" },
       { id: 4, name: "MongoDB" },
       { id: 5, name: "Tailwind CSS" },
-    ],
-  },
-  {
-    id: 3,
-    name: "The Line Project",
-    description:
-      "LINE is a visually expressive web project developed as a tribute to cutting-edge design and modern web architecture. It recreates the aesthetics and functionality of an iconic creative website",
-    href: "https://github.com/sanskar003/lineStudio-C",
-    image: "/images/project-Images/lineProject.png",
-    bgImage: "/assets/backgrounds/map.jpg",
-    frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
     ],
   },
 ];
